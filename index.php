@@ -8,8 +8,9 @@
 	$label_date 		= "Major version support end date";
 	$label_days 		= "Number of days";
 	$label_left 		= "days left";
-	$label_ago 			= "days ago";
-	
+	$label_ago 		= "days ago";
+	$label_yes 		= "yes";
+	$label_no 		= "no";
 ?>
 <!DOCTYPE html>
 	<head>
@@ -104,7 +105,7 @@
 						}elseif($numberOfDays <= 15) {
 							$color = "red";
 						}
-						echo "<td>Oui</td>";
+						echo "<td>".$label_yes."</td>";
 						echo "<td>".$eolDate."</td>";
 						echo "<td><span style='color:".$color."'>".$numberOfDays." ".$label_left."</span></td>";
 					} else {
@@ -112,7 +113,7 @@
 						if($numberOfDays <= 90){
 							$color = "red";
 						}		
-						echo "<td>Non</td>";
+						echo "<td>".$label_no."</td>";
 						echo "<td>".$eolDate."</td>";
 						echo "<td><span style='color:".$color."'>".$numberOfDays." ".$label_ago."</span></td>";
 					}
@@ -131,6 +132,4 @@
 		<script src="jquery-1.12.4.min.js"></script>
 		<script src="jquery.filtertable.min.js"></script>
 	</body>
-</html>
-
-    
+</html> 
