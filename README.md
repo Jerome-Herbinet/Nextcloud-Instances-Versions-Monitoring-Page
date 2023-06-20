@@ -21,6 +21,6 @@ This program does not work :
 2. Inside the index.php file, fill out the Nextcloud instances domains list and the additionnal major Nextcloud version + EOL date, if missing. You can also change wordings with better ones or you can simply translate them.
 
 ## Developpent roadmap : 
-- Better UI
+- Better UI and branding
 - Responsive design
 - Owncloud compatibility
