@@ -8,3 +8,4 @@ This program fetches the Nextcloud status.php content and compares it with Nextc
 ## Roadmap : 
 - Better UI
 - Responsive design
+- Owncloud compatibility
