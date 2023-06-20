@@ -128,7 +128,7 @@
 			echo '</tbody>';
 			echo '</table>';
 		?>
-		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script src="jquery-1.12.4.min.js"></script>
 		<script src="jquery.filtertable.min.js"></script>
 	</body>
 </html>
