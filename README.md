@@ -23,4 +23,4 @@ This program does not work :
 ## Developpent roadmap : 
 - Better UI and branding
 - Responsive design
-- Owncloud compatibility
+- Display "Entreprise" version
